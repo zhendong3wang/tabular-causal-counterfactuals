@@ -1,0 +1,13 @@
+{
+    "type": "AE",
+    "data": "GIVECREDIT",
+    "name": "GIVECREDIT_AE",
+    "alpha": 1,
+    "epochs": 500,
+    "units": [
+        16,
+        128,
+        16
+    ],
+    "lt_dim": 16
+}

@@ -1,0 +1,21 @@
+{
+    "type": "CACTUS_VAE_tabular",
+    "data": "GIVECREDIT",
+    "name": "GIVECREDIT_CACTUS",
+    "class_out": [
+        "ageAbove50",
+        "Dependents"
+    ],
+    "lt_dim": 4,
+    "batch_size": 128,
+    "alpha": 0.2,
+    "gamma": 1,
+    "initial_epoch_C": 5,
+    "final_epoch_C": 100,
+    "slope_C": 0.3,
+    "epochs": 200,
+    "units": [
+        32,
+        32
+    ]
+}

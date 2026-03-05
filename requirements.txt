@@ -1,0 +1,31 @@
+# requirements for causal graphs
+causalexplain==0.8.0
+scikit-learn==1.7.2
+networkx==3.6.1
+mlforge==0.2.2
+pydot==4.0.1
+pydotplus==2.0.2
+torch==2.9.1
+statsmodels==0.14.6
+igraph==1.0.0
+causal-learn==0.1.4.4
+optuna==4.6.0
+pytorch-lightning==2.6.0
+pygam==0.12.0
+dowhy==0.14
+tensorboardX==2.6.4
+tensorboard==2.20.0
+hyppo==0.5.2
+# requirements for counterfactual generation
+ipdb
+wfdb
+h5py
+pandas==2.3.2
+numpy==1.26.4
+scikit-learn==1.6.1
+tensorflow-gpu==2.10.0
+jinja2==3.1.6
+imblearn
+pip-chill
+jupyter notebook
+# carla-recourse
