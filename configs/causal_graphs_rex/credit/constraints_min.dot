@@ -1,0 +1,22 @@
+strict digraph {
+NumberRealEstateLoansOrLines;
+NumberOfTimes90DaysLate;
+NumberOfDependents;
+age;
+DebtRatio;
+NumberOfTime3059DaysPastDueNotWorse;
+NumberOfOpenCreditLinesAndLoans;
+RevolvingUtilizationOfUnsecuredLines;
+MonthlyIncome;
+NumberOfTime6089DaysPastDueNotWorse;
+NumberOfTimes90DaysLate -> NumberOfOpenCreditLinesAndLoans;
+NumberOfTimes90DaysLate -> NumberRealEstateLoansOrLines;
+NumberOfTimes90DaysLate -> RevolvingUtilizationOfUnsecuredLines;
+NumberOfTimes90DaysLate -> MonthlyIncome;
+NumberOfTime3059DaysPastDueNotWorse -> NumberOfOpenCreditLinesAndLoans;
+NumberOfTime3059DaysPastDueNotWorse -> NumberRealEstateLoansOrLines;
+NumberOfTime3059DaysPastDueNotWorse -> MonthlyIncome;
+NumberOfOpenCreditLinesAndLoans -> DebtRatio;
+RevolvingUtilizationOfUnsecuredLines -> NumberOfOpenCreditLinesAndLoans;
+MonthlyIncome -> NumberOfOpenCreditLinesAndLoans;
+}

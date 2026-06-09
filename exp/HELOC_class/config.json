@@ -1,8 +1,0 @@
-{
-    "type": "DNN",
-    "data": "HELOC",
-    "name": "HELOC_class",
-    "epochs": 100,
-    "patience": 20,
-    "batch_size": 64
-}

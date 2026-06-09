@@ -1,0 +1,16 @@
+strict digraph {
+fulltime;
+zgpa;
+zfygpa;
+faminc;
+decile1b;
+racetxt;
+male;
+ugpa;
+decile3;
+lsat;
+tier;
+fulltime -> faminc;
+ugpa -> decile3;
+lsat -> decile1b;
+}

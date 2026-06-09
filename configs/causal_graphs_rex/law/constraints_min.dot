@@ -1,0 +1,22 @@
+strict digraph {
+fulltime;
+zgpa;
+zfygpa;
+faminc;
+decile1b;
+racetxt;
+male;
+ugpa;
+decile3;
+lsat;
+tier;
+fulltime -> faminc;
+zgpa -> lsat;
+zgpa -> ugpa;
+zfygpa -> faminc;
+decile1b -> lsat;
+decile3 -> ugpa;
+decile3 -> lsat;
+decile3 -> faminc;
+tier -> zgpa;
+}

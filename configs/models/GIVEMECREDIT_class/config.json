@@ -1,0 +1,8 @@
+{
+    "type": "Classifier_DNN",
+    "data": "GIVEMECREDIT",
+    "name": "GIVEMECREDIT_class",
+    "epochs": 100,
+    "patience": 20,
+    "batch_size": 64
+}

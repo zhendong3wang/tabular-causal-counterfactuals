@@ -1,0 +1,37 @@
+strict digraph {
+NumRevolvingTradesWBalance;
+MaxDelqEver;
+NumSatisfactoryTrades;
+MSinceMostRecentInqexcl7days;
+NumTotalTrades;
+NumTrades90Ever2DerogPubRec;
+NetFractionRevolvingBurden;
+PercentInstallTrades;
+MaxDelq2PublicRecLast12M;
+MSinceMostRecentDelq;
+PercentTradesNeverDelq;
+MSinceOldestTradeOpen;
+NumTradesOpeninLast12M;
+NetFractionInstallBurden;
+AverageMInFile;
+PercentTradesWBalance;
+NumTrades60Ever2DerogPubRec;
+NumInqLast6M;
+NumBank2NatlTradesWHighUtilization;
+NumInstallTradesWBalance;
+NumRevolvingTradesWBalance -> MaxDelq2PublicRecLast12M;
+NumSatisfactoryTrades -> MaxDelqEver;
+MSinceMostRecentInqexcl7days -> NumBank2NatlTradesWHighUtilization;
+MSinceMostRecentInqexcl7days -> PercentTradesWBalance;
+NetFractionRevolvingBurden -> NumInqLast6M;
+PercentInstallTrades -> MaxDelqEver;
+MSinceMostRecentDelq -> MSinceMostRecentInqexcl7days;
+MSinceMostRecentDelq -> NumInqLast6M;
+PercentTradesNeverDelq -> PercentTradesWBalance;
+NetFractionInstallBurden -> MSinceMostRecentInqexcl7days;
+NetFractionInstallBurden -> NetFractionRevolvingBurden;
+PercentTradesWBalance -> NumTradesOpeninLast12M;
+PercentTradesWBalance -> MaxDelqEver;
+PercentTradesWBalance -> NumInqLast6M;
+NumBank2NatlTradesWHighUtilization -> MaxDelqEver;
+}

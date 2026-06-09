@@ -1,16 +1,16 @@
 #!/bin/bash
 
 CONFIGS=(
-    "exp/GIVECREDIT_AE/config.json" \
-    "exp/GIVECREDIT_CACTUS/config.json" \
-    "exp/ADULT_AE/config.json" \
-    "exp/ADULT_CACTUS/config.json" \
-    "exp/LAW_AE/config.json" \
-    "exp/LAW_CACTUS/config.json" \
-    "exp/GERMANCREDIT_AE/config.json" \
-    "exp/GERMANCREDIT_CACTUS/config.json" \
-    "exp/HELOC_AE/config.json" \
-    "exp/HELOC_CACTUS/config.json" 
+    "configs/models/GIVEMECREDIT_AE/config.json" \
+    "configs/models/GIVEMECREDIT_CACTUS/config.json" \
+    "configs/models/ADULT_AE/config.json" \
+    "configs/models/ADULT_CACTUS/config.json" \
+    "configs/models/LAW_AE/config.json" \
+    "configs/models/LAW_CACTUS/config.json" \
+    "configs/models/GERMANCREDIT_AE/config.json" \
+    "configs/models/GERMANCREDIT_CACTUS/config.json" \
+    "configs/models/HELOC_AE/config.json" \
+    "configs/models/HELOC_CACTUS/config.json" 
 )
 
 

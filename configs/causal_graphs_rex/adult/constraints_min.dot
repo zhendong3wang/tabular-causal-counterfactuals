@@ -1,0 +1,18 @@
+strict digraph {
+educationnum;
+workclass;
+occupation;
+capitalloss;
+sex;
+race;
+capitalgain;
+hoursperweek;
+maritalstatus;
+educationnum -> occupation;
+workclass -> hoursperweek;
+workclass -> occupation;
+capitalgain -> hoursperweek;
+capitalgain -> maritalstatus;
+hoursperweek -> occupation;
+hoursperweek -> maritalstatus;
+}

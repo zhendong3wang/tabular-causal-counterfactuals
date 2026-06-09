@@ -30,7 +30,7 @@ bash trainClassifiers.sh
 
 
 ## Data
-All the datasets are publicly available tabular datasets across different application domains, listed in the [`Data`](./Data) folder.
+All the datasets are publicly available tabular datasets across different application domains, listed in the [`data`](./data) folder.
 Three of these datasets focus on credit approval prediction (where the prediction target is a binary credit risk or loan outcome label): 
 - Give Me Credit (Credit)
 - German Credit (German)

@@ -1,0 +1,14 @@
+strict digraph {
+CreditAmount;
+Duration;
+Age;
+CheckingAccount;
+Sex;
+Job;
+SavingAccounts;
+Housing;
+SavingAccounts -> Job;
+SavingAccounts -> CheckingAccount;
+Housing -> CheckingAccount;
+Housing -> Job;
+}

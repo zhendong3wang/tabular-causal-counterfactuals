@@ -1,0 +1,109 @@
+ [
+    {
+        "name": "LatentCF++",
+        "data": "GERMANCREDIT",
+        "classifier": "./configs/models/GERMANCREDIT_class/config.json",
+        "AEmodel": "./configs/models/GERMANCREDIT_AE/config.json",
+        "CFmethod": "LatentCFpp",
+        "context": [
+            "Sex",
+            "AgeAbove40"
+        ],
+        "epochs": 100,
+        "tol": 0.001,
+        "target_prob": 0.5,
+        "learning_rate": 0.1
+    },
+    {
+        "name": "Prototype C",
+        "data": "GERMANCREDIT",
+        "classifier": "./configs/models/GERMANCREDIT_class/config.json",
+        "AEmodel": "./configs/models/GERMANCREDIT_AE/config.json",
+        "CFmethod": "Prototype",
+        "context": [
+            "Sex",
+            "AgeAbove40"
+        ],
+        "epochs": 100,
+        "kappa": 0.0,
+        "c": 1.0,
+        "c_steps": 1,
+        "beta": 0.1,
+        "gamma": 0.0,
+        "theta": 100.0,
+        "clip": [
+            -1000,
+            1000
+        ],
+        "feat_range": [
+            -4,
+            4
+        ],
+        "lr": 0.01
+    },
+    {
+        "name": "Prototype D",
+        "data": "GERMANCREDIT",
+        "classifier": "./configs/models/GERMANCREDIT_class/config.json",
+        "AEmodel": "./configs/models/GERMANCREDIT_AE/config.json",
+        "CFmethod": "Prototype",
+        "context": [
+            "Sex",
+            "AgeAbove40"
+        ],
+        "epochs": 100,
+        "kappa": 0.0,
+        "c": 1.0,
+        "c_steps": 1,
+        "beta": 0.1,
+        "gamma": 100.0,
+        "theta": 100.0,
+        "clip": [
+            -1000,
+            1000
+        ],
+        "feat_range": [
+            -4,
+            4
+        ],
+        "lr": 0.01
+    },
+    {
+        "name": "CACTUS",
+        "data": "GERMANCREDIT",
+        "classifier": "./configs/models/GERMANCREDIT_class/config.json",
+        "AEmodel": "./configs/models/GERMANCREDIT_CACTUS/config.json",
+        "CFmethod": "CACTUS",
+        "context": [
+            "Sex",
+            "AgeAbove40"
+        ],
+        "epochs": 300,
+        "target_prob": 0.5,
+        "learning_rate": 0.01,
+        "power": 0.5,
+        "alpha": 0.7,
+        "gamma": 0.1,
+        "beta": 0.01,
+        "dynamicAlpha": false
+    },
+    {
+        "name": "CausalCACTUS",
+        "data": "GERMANCREDIT",
+        "classifier": "./configs/models/GERMANCREDIT_class/config.json",
+        "AEmodel": "./configs/models/GERMANCREDIT_CACTUS/config.json",
+        "CFmethod": "CausalCACTUS",
+        "context": [
+            "Sex",
+            "AgeAbove40"
+        ],
+        "epochs": 300,
+        "target_prob": 0.5,
+        "learning_rate": 0.01,
+        "power": 0.5,
+        "alpha": 0.7,
+        "gamma": 0.1,
+        "beta": 0.01,
+        "dynamicAlpha": true
+    }
+]
