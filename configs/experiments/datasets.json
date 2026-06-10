@@ -1,0 +1,31 @@
+{
+  "credit": {
+    "classifier": "./configs/models/GIVEMECREDIT_class/config.json",
+    "AEmodel": "./configs/models/GIVEMECREDIT_CACTUS/config.json",
+    "context": ["ageAbove50", "Dependents"]
+  },
+
+  "adult": {
+    "classifier": "./configs/models/ADULT_class/config.json",
+    "AEmodel": "./configs/models/ADULT_CACTUS/config.json",
+    "context": ["sex", "race"]
+  },
+
+  "law": {
+    "classifier": "./configs/models/LAW_class/config.json",
+    "AEmodel": "./configs/models/LAW_CACTUS/config.json",
+    "context": ["male", "racetxt"]
+  },
+
+  "germancredit": {
+    "classifier": "./configs/models/GERMANCREDIT_class/config.json",
+    "AEmodel": "./configs/models/GERMANCREDIT_CACTUS/config.json",
+    "context": ["Sex", "AgeAbove40"]
+  },
+  
+  "heloc": {
+    "classifier": "./configs/models/HELOC_class/config.json",
+    "AEmodel": "./configs/models/HELOC_CACTUS/config.json",
+    "context": ["MOpenAbove15years", "MInFileAbove6years"]
+  }
+}

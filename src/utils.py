@@ -12,6 +12,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
 import ipdb
+import csv
 
 def cleanup_gpu():
     # Delete model from memory
@@ -27,7 +28,70 @@ def upsampling(X,y, strategy="all"):
     idx = oversample.sample_indices_
     return X[idx,...],y[idx,...], idx
 
+class MetricWriter:
 
+    def __init__(self, file_name, dataset_name, prior_name):
+        self.file_name = file_name
+        self.dataset_name = dataset_name
+        self.prior_name = prior_name
+
+    def write_head(self):
+
+        with open(self.file_name, "w", newline="") as f:
+
+            writer = csv.writer(f)
+
+            writer.writerow([
+                "Dataset",
+                "Prior",
+                "Model",
+                "CFMethod",
+                "BootstrapID",
+                "validity",
+                "lof_context",
+                "compactness",
+                "n_proximity",
+                "causal_compact_val",
+                "causal_validity_hard",
+                "causal_validity_soft",
+                "inlier_fraction"
+            ])
+
+    def write_result(
+        self,
+        model_name,
+        cf_method,
+        bootstrap_id,
+        metric_results
+    ):
+        (proximity,
+        n_proximity,
+        validity,
+        compactness,
+        lof_context,
+        causal_validity_hard,
+        causal_validity_soft,
+        causal_compact_val,
+        inlier_fraction) = metric_results
+        with open(self.file_name, "a", newline="") as f:
+
+            writer = csv.writer(f)
+
+            writer.writerow([
+                self.dataset_name,
+                self.prior_name,
+                model_name,
+                cf_method,
+                bootstrap_id,
+                validity,
+                lof_context,
+                compactness,
+                n_proximity,
+                causal_compact_val,
+                causal_validity_hard,
+                causal_validity_soft,
+                inlier_fraction
+            ])
 
 # originally from: https://github.com/zhendong3wang/learning-time-series-counterfactuals/blob/main/src/help_functions.py
 def euclidean_distance(X, cf_samples, average=True):
