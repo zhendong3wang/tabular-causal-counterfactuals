@@ -12,7 +12,7 @@ echo "Starting training"
 
 for CONFIG in "${CONFIGS[@]}"; do
     echo "training $CONFIG"
-    CUDA_VISIBLE_DEVICES=3 python train.py --config $CONFIG
+    CUDA_VISIBLE_DEVICES=3 python ./src/train.py --config $CONFIG
 done
 
 
