@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="264pt" height="116pt" viewBox="0.00 0.00 264.00 116.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 259.53,-112 259.53,4 -4,4"/>
+<!-- CheckingAccount -->
+<g id="node1" class="node">
+<title>CheckingAccount</title>
+<ellipse fill="none" stroke="black" cx="80.76" cy="-18" rx="80.76" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="80.76" y="-13.8" font-family="Times,serif" font-size="14.00">CheckingAccount</text>
+</g>
+<!-- Job -->
+<g id="node2" class="node">
+<title>Job</title>
+<ellipse fill="none" stroke="black" cx="208.76" cy="-18" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="208.76" y="-13.8" font-family="Times,serif" font-size="14.00">Job</text>
+</g>
+<!-- SavingAccounts -->
+<g id="node3" class="node">
+<title>SavingAccounts</title>
+<ellipse fill="none" stroke="black" cx="75.76" cy="-90" rx="74.33" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="75.76" y="-85.8" font-family="Times,serif" font-size="14.00">SavingAccounts</text>
+</g>
+<!-- SavingAccounts&#45;&gt;CheckingAccount -->
+<g id="edge2" class="edge">
+<title>SavingAccounts-&gt;CheckingAccount</title>
+<path fill="none" stroke="black" d="M77,-71.7C77.52,-64.41 78.14,-55.73 78.72,-47.54"/>
+<polygon fill="black" stroke="black" points="82.21,-47.84 79.43,-37.61 75.23,-47.34 82.21,-47.84"/>
+</g>
+<!-- SavingAccounts&#45;&gt;Job -->
+<g id="edge1" class="edge">
+<title>SavingAccounts-&gt;Job</title>
+<path fill="none" stroke="black" d="M105.94,-73.12C127.54,-61.75 156.53,-46.49 178.21,-35.08"/>
+<polygon fill="black" stroke="black" points="179.65,-38.28 186.87,-30.52 176.39,-32.08 179.65,-38.28"/>
+</g>
+<!-- Housing -->
+<g id="node4" class="node">
+<title>Housing</title>
+<ellipse fill="none" stroke="black" cx="211.76" cy="-90" rx="43.77" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="211.76" y="-85.8" font-family="Times,serif" font-size="14.00">Housing</text>
+</g>
+<!-- Housing&#45;&gt;CheckingAccount -->
+<g id="edge3" class="edge">
+<title>Housing-&gt;CheckingAccount</title>
+<path fill="none" stroke="black" d="M185.88,-75.17C167.3,-65.24 141.9,-51.67 120.72,-40.35"/>
+<polygon fill="black" stroke="black" points="122.52,-37.35 112.05,-35.72 119.22,-43.52 122.52,-37.35"/>
+</g>
+<!-- Housing&#45;&gt;Job -->
+<g id="edge4" class="edge">
+<title>Housing-&gt;Job</title>
+<path fill="none" stroke="black" d="M211.02,-71.7C210.71,-64.41 210.34,-55.73 209.98,-47.54"/>
+<polygon fill="black" stroke="black" points="213.48,-47.46 209.56,-37.62 206.49,-47.76 213.48,-47.46"/>
+</g>
+</g>
+</svg>

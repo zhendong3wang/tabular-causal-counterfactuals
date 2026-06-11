@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="417pt" height="188pt" viewBox="0.00 0.00 417.00 188.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-184 413.41,-184 413.41,4 -4,4"/>
+<!-- EducationYears -->
+<g id="node1" class="node">
+<title>EducationYears</title>
+<ellipse fill="none" stroke="black" cx="72.71" cy="-90" rx="72.71" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.71" y="-85.8" font-family="Times,serif" font-size="14.00">EducationYears</text>
+</g>
+<!-- Occupation -->
+<g id="node3" class="node">
+<title>Occupation</title>
+<ellipse fill="none" stroke="black" cx="173.71" cy="-18" rx="55.55" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="173.71" y="-13.8" font-family="Times,serif" font-size="14.00">Occupation</text>
+</g>
+<!-- EducationYears&#45;&gt;Occupation -->
+<g id="edge1" class="edge">
+<title>EducationYears-&gt;Occupation</title>
+<path fill="none" stroke="black" d="M96.39,-72.59C109.88,-63.24 126.96,-51.4 141.64,-41.23"/>
+<polygon fill="black" stroke="black" points="143.4,-44.26 149.63,-35.69 139.41,-38.51 143.4,-44.26"/>
+</g>
+<!-- WorkClass -->
+<g id="node2" class="node">
+<title>WorkClass</title>
+<ellipse fill="none" stroke="black" cx="205.71" cy="-162" rx="53.95" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="205.71" y="-157.8" font-family="Times,serif" font-size="14.00">WorkClass</text>
+</g>
+<!-- WorkClass&#45;&gt;Occupation -->
+<g id="edge3" class="edge">
+<title>WorkClass-&gt;Occupation</title>
+<path fill="none" stroke="black" d="M201.36,-143.85C198.77,-133.48 195.46,-120 192.71,-108 188.09,-87.86 183.23,-65.06 179.58,-47.58"/>
+<polygon fill="black" stroke="black" points="183.03,-46.99 177.57,-37.91 176.18,-48.41 183.03,-46.99"/>
+</g>
+<!-- WorkingHours -->
+<g id="node5" class="node">
+<title>WorkingHours</title>
+<ellipse fill="none" stroke="black" cx="270.71" cy="-90" rx="68.97" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="270.71" y="-85.8" font-family="Times,serif" font-size="14.00">WorkingHours</text>
+</g>
+<!-- WorkClass&#45;&gt;WorkingHours -->
+<g id="edge2" class="edge">
+<title>WorkClass-&gt;WorkingHours</title>
+<path fill="none" stroke="black" d="M221.11,-144.41C228.93,-135.99 238.59,-125.58 247.31,-116.2"/>
+<polygon fill="black" stroke="black" points="249.69,-118.77 253.93,-109.07 244.56,-114.01 249.69,-118.77"/>
+</g>
+<!-- CapitalGain -->
+<g id="node4" class="node">
+<title>CapitalGain</title>
+<ellipse fill="none" stroke="black" cx="351.71" cy="-162" rx="57.7" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="351.71" y="-157.8" font-family="Times,serif" font-size="14.00">CapitalGain</text>
+</g>
+<!-- CapitalGain&#45;&gt;WorkingHours -->
+<g id="edge4" class="edge">
+<title>CapitalGain-&gt;WorkingHours</title>
+<path fill="none" stroke="black" d="M332.92,-144.76C322.74,-135.97 309.97,-124.93 298.65,-115.14"/>
+<polygon fill="black" stroke="black" points="300.96,-112.51 291.1,-108.62 296.38,-117.81 300.96,-112.51"/>
+</g>
+<!-- MaritalStatus -->
+<g id="node6" class="node">
+<title>MaritalStatus</title>
+<ellipse fill="none" stroke="black" cx="338.71" cy="-18" rx="63.07" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="338.71" y="-13.8" font-family="Times,serif" font-size="14.00">MaritalStatus</text>
+</g>
+<!-- CapitalGain&#45;&gt;MaritalStatus -->
+<g id="edge5" class="edge">
+<title>CapitalGain-&gt;MaritalStatus</title>
+<path fill="none" stroke="black" d="M351.91,-143.55C351.92,-125.56 351.44,-96.74 348.71,-72 347.81,-63.87 346.36,-55.12 344.84,-47.12"/>
+<polygon fill="black" stroke="black" points="348.32,-46.68 342.92,-37.57 341.46,-48.06 348.32,-46.68"/>
+</g>
+<!-- WorkingHours&#45;&gt;Occupation -->
+<g id="edge6" class="edge">
+<title>WorkingHours-&gt;Occupation</title>
+<path fill="none" stroke="black" d="M248.21,-72.76C235.39,-63.51 219.12,-51.77 205.06,-41.63"/>
+<polygon fill="black" stroke="black" points="207.13,-38.81 196.98,-35.79 203.04,-44.48 207.13,-38.81"/>
+</g>
+<!-- WorkingHours&#45;&gt;MaritalStatus -->
+<g id="edge7" class="edge">
+<title>WorkingHours-&gt;MaritalStatus</title>
+<path fill="none" stroke="black" d="M287.17,-72.05C295.35,-63.63 305.41,-53.28 314.46,-43.97"/>
+<polygon fill="black" stroke="black" points="316.89,-46.49 321.34,-36.87 311.87,-41.61 316.89,-46.49"/>
+</g>
+</g>
+</svg>

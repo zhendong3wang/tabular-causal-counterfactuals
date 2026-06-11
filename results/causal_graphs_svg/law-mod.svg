@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440pt" height="116pt" viewBox="0.00 0.00 440.00 116.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 436,-112 436,4 -4,4"/>
+<!-- Enrollment -->
+<g id="node1" class="node">
+<title>Enrollment</title>
+<ellipse fill="none" stroke="black" cx="67.36" cy="-90" rx="54.48" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="67.36" y="-85.8" font-family="Times,serif" font-size="14.00">Enrollment</text>
+</g>
+<!-- FamilyIncome -->
+<g id="node2" class="node">
+<title>FamilyIncome</title>
+<ellipse fill="none" stroke="black" cx="67.36" cy="-18" rx="67.36" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="67.36" y="-13.8" font-family="Times,serif" font-size="14.00">FamilyIncome</text>
+</g>
+<!-- Enrollment&#45;&gt;FamilyIncome -->
+<g id="edge1" class="edge">
+<title>Enrollment-&gt;FamilyIncome</title>
+<path fill="none" stroke="black" d="M67.36,-71.7C67.36,-64.41 67.36,-55.73 67.36,-47.54"/>
+<polygon fill="black" stroke="black" points="70.86,-47.62 67.36,-37.62 63.86,-47.62 70.86,-47.62"/>
+</g>
+<!-- LSATDecile -->
+<g id="node3" class="node">
+<title>LSATDecile</title>
+<ellipse fill="none" stroke="black" cx="213.36" cy="-18" rx="60.38" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="213.36" y="-13.8" font-family="Times,serif" font-size="14.00">LSATDecile</text>
+</g>
+<!-- UndergradGPA -->
+<g id="node4" class="node">
+<title>UndergradGPA</title>
+<ellipse fill="none" stroke="black" cx="360.36" cy="-90" rx="71.65" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="360.36" y="-85.8" font-family="Times,serif" font-size="14.00">UndergradGPA</text>
+</g>
+<!-- ClassDecile -->
+<g id="node5" class="node">
+<title>ClassDecile</title>
+<ellipse fill="none" stroke="black" cx="360.36" cy="-18" rx="57.16" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="360.36" y="-13.8" font-family="Times,serif" font-size="14.00">ClassDecile</text>
+</g>
+<!-- UndergradGPA&#45;&gt;ClassDecile -->
+<g id="edge2" class="edge">
+<title>UndergradGPA-&gt;ClassDecile</title>
+<path fill="none" stroke="black" d="M360.36,-71.7C360.36,-64.41 360.36,-55.73 360.36,-47.54"/>
+<polygon fill="black" stroke="black" points="363.86,-47.62 360.36,-37.62 356.86,-47.62 363.86,-47.62"/>
+</g>
+<!-- LSATScore -->
+<g id="node6" class="node">
+<title>LSATScore</title>
+<ellipse fill="none" stroke="black" cx="213.36" cy="-90" rx="57.17" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="213.36" y="-85.8" font-family="Times,serif" font-size="14.00">LSATScore</text>
+</g>
+<!-- LSATScore&#45;&gt;LSATDecile -->
+<g id="edge3" class="edge">
+<title>LSATScore-&gt;LSATDecile</title>
+<path fill="none" stroke="black" d="M213.36,-71.7C213.36,-64.41 213.36,-55.73 213.36,-47.54"/>
+<polygon fill="black" stroke="black" points="216.86,-47.62 213.36,-37.62 209.86,-47.62 216.86,-47.62"/>
+</g>
+</g>
+</svg>

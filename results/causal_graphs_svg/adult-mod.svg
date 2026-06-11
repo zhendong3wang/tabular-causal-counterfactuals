@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="266pt" height="188pt" viewBox="0.00 0.00 266.00 188.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-184 261.65,-184 261.65,4 -4,4"/>
+<!-- WorkClass -->
+<g id="node1" class="node">
+<title>WorkClass</title>
+<ellipse fill="none" stroke="black" cx="53.95" cy="-162" rx="53.95" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="53.95" y="-157.8" font-family="Times,serif" font-size="14.00">WorkClass</text>
+</g>
+<!-- Occupation -->
+<g id="node2" class="node">
+<title>Occupation</title>
+<ellipse fill="none" stroke="black" cx="118.95" cy="-18" rx="55.55" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="118.95" y="-13.8" font-family="Times,serif" font-size="14.00">Occupation</text>
+</g>
+<!-- WorkClass&#45;&gt;Occupation -->
+<g id="edge2" class="edge">
+<title>WorkClass-&gt;Occupation</title>
+<path fill="none" stroke="black" d="M45.62,-143.89C37.78,-125.16 28.89,-94.77 40.95,-72 48.53,-57.68 61.91,-46.51 75.47,-38.2"/>
+<polygon fill="black" stroke="black" points="77,-41.35 83.98,-33.39 73.55,-35.26 77,-41.35"/>
+</g>
+<!-- WorkingHours -->
+<g id="node4" class="node">
+<title>WorkingHours</title>
+<ellipse fill="none" stroke="black" cx="118.95" cy="-90" rx="68.97" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="118.95" y="-85.8" font-family="Times,serif" font-size="14.00">WorkingHours</text>
+</g>
+<!-- WorkClass&#45;&gt;WorkingHours -->
+<g id="edge1" class="edge">
+<title>WorkClass-&gt;WorkingHours</title>
+<path fill="none" stroke="black" d="M69.35,-144.41C77.17,-135.99 86.84,-125.58 95.55,-116.2"/>
+<polygon fill="black" stroke="black" points="97.94,-118.77 102.18,-109.07 92.81,-114.01 97.94,-118.77"/>
+</g>
+<!-- CapitalGain -->
+<g id="node3" class="node">
+<title>CapitalGain</title>
+<ellipse fill="none" stroke="black" cx="199.95" cy="-162" rx="57.7" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="199.95" y="-157.8" font-family="Times,serif" font-size="14.00">CapitalGain</text>
+</g>
+<!-- CapitalGain&#45;&gt;Occupation -->
+<g id="edge4" class="edge">
+<title>CapitalGain-&gt;Occupation</title>
+<path fill="none" stroke="black" d="M203.75,-143.73C206.95,-124.85 209.27,-94.34 196.95,-72 189.13,-57.81 175.69,-46.67 162.16,-38.34"/>
+<polygon fill="black" stroke="black" points="164.1,-35.42 153.68,-33.52 160.64,-41.51 164.1,-35.42"/>
+</g>
+<!-- CapitalGain&#45;&gt;WorkingHours -->
+<g id="edge3" class="edge">
+<title>CapitalGain-&gt;WorkingHours</title>
+<path fill="none" stroke="black" d="M181.16,-144.76C170.99,-135.97 158.21,-124.93 146.89,-115.14"/>
+<polygon fill="black" stroke="black" points="149.2,-112.51 139.34,-108.62 144.62,-117.81 149.2,-112.51"/>
+</g>
+<!-- WorkingHours&#45;&gt;Occupation -->
+<g id="edge5" class="edge">
+<title>WorkingHours-&gt;Occupation</title>
+<path fill="none" stroke="black" d="M118.95,-71.7C118.95,-64.41 118.95,-55.73 118.95,-47.54"/>
+<polygon fill="black" stroke="black" points="122.45,-47.62 118.95,-37.62 115.45,-47.62 122.45,-47.62"/>
+</g>
+</g>
+</svg>

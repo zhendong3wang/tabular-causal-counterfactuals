@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="529pt" height="260pt" viewBox="0.00 0.00 529.00 260.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 256)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-256 524.82,-256 524.82,4 -4,4"/>
+<!-- HouseLoans -->
+<g id="node1" class="node">
+<title>HouseLoans</title>
+<ellipse fill="none" stroke="black" cx="446.11" cy="-162" rx="59.31" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="446.11" y="-157.8" font-family="Times,serif" font-size="14.00">HouseLoans</text>
+</g>
+<!-- Delay90Days -->
+<g id="node2" class="node">
+<title>Delay90Days</title>
+<ellipse fill="none" stroke="black" cx="203.11" cy="-234" rx="63.6" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="203.11" y="-229.8" font-family="Times,serif" font-size="14.00">Delay90Days</text>
+</g>
+<!-- Delay90Days&#45;&gt;HouseLoans -->
+<g id="edge2" class="edge">
+<title>Delay90Days-&gt;HouseLoans</title>
+<path fill="none" stroke="black" d="M246.55,-220.49C287.61,-208.66 349.31,-190.88 393.22,-178.23"/>
+<polygon fill="black" stroke="black" points="394.16,-181.61 402.8,-175.47 392.22,-174.88 394.16,-181.61"/>
+</g>
+<!-- CreditLines -->
+<g id="node5" class="node">
+<title>CreditLines</title>
+<ellipse fill="none" stroke="black" cx="203.11" cy="-90" rx="56.63" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="203.11" y="-85.8" font-family="Times,serif" font-size="14.00">CreditLines</text>
+</g>
+<!-- Delay90Days&#45;&gt;CreditLines -->
+<g id="edge1" class="edge">
+<title>Delay90Days-&gt;CreditLines</title>
+<path fill="none" stroke="black" d="M146.94,-225.28C95.82,-216.97 25.84,-201.92 9.11,-180 -28.94,-130.17 68.05,-107.33 138.2,-97.57"/>
+<polygon fill="black" stroke="black" points="138.25,-101.09 147.7,-96.31 137.33,-94.15 138.25,-101.09"/>
+</g>
+<!-- RevolvingUtilization -->
+<g id="node6" class="node">
+<title>RevolvingUtilization</title>
+<ellipse fill="none" stroke="black" cx="111.11" cy="-162" rx="92.57" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="111.11" y="-157.8" font-family="Times,serif" font-size="14.00">RevolvingUtilization</text>
+</g>
+<!-- Delay90Days&#45;&gt;RevolvingUtilization -->
+<g id="edge3" class="edge">
+<title>Delay90Days-&gt;RevolvingUtilization</title>
+<path fill="none" stroke="black" d="M181.77,-216.76C170.06,-207.86 155.34,-196.65 142.36,-186.78"/>
+<polygon fill="black" stroke="black" points="144.57,-184.06 134.49,-180.79 140.33,-189.64 144.57,-184.06"/>
+</g>
+<!-- MonthlyIncome -->
+<g id="node7" class="node">
+<title>MonthlyIncome</title>
+<ellipse fill="none" stroke="black" cx="295.11" cy="-162" rx="73.26" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="295.11" y="-157.8" font-family="Times,serif" font-size="14.00">MonthlyIncome</text>
+</g>
+<!-- Delay90Days&#45;&gt;MonthlyIncome -->
+<g id="edge4" class="edge">
+<title>Delay90Days-&gt;MonthlyIncome</title>
+<path fill="none" stroke="black" d="M224.44,-216.76C236.23,-207.79 251.09,-196.49 264.14,-186.56"/>
+<polygon fill="black" stroke="black" points="266.2,-189.39 272.04,-180.55 261.96,-183.82 266.2,-189.39"/>
+</g>
+<!-- DebtRatio -->
+<g id="node3" class="node">
+<title>DebtRatio</title>
+<ellipse fill="none" stroke="black" cx="203.11" cy="-18" rx="50.73" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="203.11" y="-13.8" font-family="Times,serif" font-size="14.00">DebtRatio</text>
+</g>
+<!-- Delay30Days -->
+<g id="node4" class="node">
+<title>Delay30Days</title>
+<ellipse fill="none" stroke="black" cx="446.11" cy="-234" rx="63.6" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="446.11" y="-229.8" font-family="Times,serif" font-size="14.00">Delay30Days</text>
+</g>
+<!-- Delay30Days&#45;&gt;HouseLoans -->
+<g id="edge6" class="edge">
+<title>Delay30Days-&gt;HouseLoans</title>
+<path fill="none" stroke="black" d="M446.11,-215.7C446.11,-208.41 446.11,-199.73 446.11,-191.54"/>
+<polygon fill="black" stroke="black" points="449.61,-191.62 446.11,-181.62 442.61,-191.62 449.61,-191.62"/>
+</g>
+<!-- Delay30Days&#45;&gt;CreditLines -->
+<g id="edge5" class="edge">
+<title>Delay30Days-&gt;CreditLines</title>
+<path fill="none" stroke="black" d="M476.26,-217.9C490.53,-209 506.16,-196.27 514.11,-180 521.13,-165.62 524.43,-156.23 514.11,-144 483.64,-107.91 353.09,-96.39 271.12,-92.72"/>
+<polygon fill="black" stroke="black" points="271.3,-89.22 261.16,-92.3 271.01,-96.22 271.3,-89.22"/>
+</g>
+<!-- Delay30Days&#45;&gt;MonthlyIncome -->
+<g id="edge7" class="edge">
+<title>Delay30Days-&gt;MonthlyIncome</title>
+<path fill="none" stroke="black" d="M414.08,-218.15C392.14,-207.98 362.76,-194.36 338.69,-183.2"/>
+<polygon fill="black" stroke="black" points="340.31,-180.1 329.76,-179.07 337.36,-186.45 340.31,-180.1"/>
+</g>
+<!-- CreditLines&#45;&gt;DebtRatio -->
+<g id="edge8" class="edge">
+<title>CreditLines-&gt;DebtRatio</title>
+<path fill="none" stroke="black" d="M203.11,-71.7C203.11,-64.41 203.11,-55.73 203.11,-47.54"/>
+<polygon fill="black" stroke="black" points="206.61,-47.62 203.11,-37.62 199.61,-47.62 206.61,-47.62"/>
+</g>
+<!-- RevolvingUtilization&#45;&gt;CreditLines -->
+<g id="edge9" class="edge">
+<title>RevolvingUtilization-&gt;CreditLines</title>
+<path fill="none" stroke="black" d="M133.38,-144.05C145.27,-135 160.08,-123.73 172.99,-113.91"/>
+<polygon fill="black" stroke="black" points="174.94,-116.82 180.78,-107.98 170.71,-111.25 174.94,-116.82"/>
+</g>
+<!-- MonthlyIncome&#45;&gt;CreditLines -->
+<g id="edge10" class="edge">
+<title>MonthlyIncome-&gt;CreditLines</title>
+<path fill="none" stroke="black" d="M273.3,-144.41C261.33,-135.3 246.3,-123.87 233.22,-113.92"/>
+<polygon fill="black" stroke="black" points="235.4,-111.17 225.32,-107.9 231.16,-116.75 235.4,-111.17"/>
+</g>
+</g>
+</svg>

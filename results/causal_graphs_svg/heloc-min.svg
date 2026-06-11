@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1176pt" height="476pt" viewBox="0.00 0.00 1176.00 476.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 472)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-472 1171.8,-472 1171.8,4 -4,4"/>
+<!-- RevolvingTrades -->
+<g id="node1" class="node">
+<title>RevolvingTrades</title>
+<ellipse fill="none" stroke="black" cx="501.36" cy="-162" rx="77.55" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="501.36" y="-157.8" font-family="Times,serif" font-size="14.00">RevolvingTrades</text>
+</g>
+<!-- DelqEver -->
+<g id="node2" class="node">
+<title>DelqEver</title>
+<ellipse fill="none" stroke="black" cx="699.36" cy="-90" rx="48.04" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="699.36" y="-85.8" font-family="Times,serif" font-size="14.00">DelqEver</text>
+</g>
+<!-- SatisfactoryTrades -->
+<g id="node3" class="node">
+<title>SatisfactoryTrades</title>
+<ellipse fill="none" stroke="black" cx="1084.36" cy="-162" rx="83.44" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1084.36" y="-157.8" font-family="Times,serif" font-size="14.00">SatisfactoryTrades</text>
+</g>
+<!-- Delq12Months -->
+<g id="node9" class="node">
+<title>Delq12Months</title>
+<ellipse fill="none" stroke="black" cx="1001.36" cy="-90" rx="68.98" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1001.36" y="-85.8" font-family="Times,serif" font-size="14.00">Delq12Months</text>
+</g>
+<!-- SatisfactoryTrades&#45;&gt;Delq12Months -->
+<g id="edge1" class="edge">
+<title>SatisfactoryTrades-&gt;Delq12Months</title>
+<path fill="none" stroke="black" d="M1064.27,-144.05C1053.9,-135.31 1041.07,-124.49 1029.71,-114.9"/>
+<polygon fill="black" stroke="black" points="1032.04,-112.29 1022.14,-108.52 1027.53,-117.65 1032.04,-112.29"/>
+</g>
+<!-- LastInquiryTime -->
+<g id="node4" class="node">
+<title>LastInquiryTime</title>
+<ellipse fill="none" stroke="black" cx="442.36" cy="-450" rx="76.47" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="442.36" y="-445.8" font-family="Times,serif" font-size="14.00">LastInquiryTime</text>
+</g>
+<!-- LastInquiryTime&#45;&gt;RevolvingTrades -->
+<g id="edge4" class="edge">
+<title>LastInquiryTime-&gt;RevolvingTrades</title>
+<path fill="none" stroke="black" d="M456.66,-432C464.14,-422.13 472.69,-409.08 477.36,-396 502.44,-325.82 503.91,-236.71 502.73,-191.74"/>
+<polygon fill="black" stroke="black" points="506.22,-191.67 502.39,-181.79 499.23,-191.9 506.22,-191.67"/>
+</g>
+<!-- Trades12Months -->
+<g id="node12" class="node">
+<title>Trades12Months</title>
+<ellipse fill="none" stroke="black" cx="332.36" cy="-18" rx="76.48" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="332.36" y="-13.8" font-family="Times,serif" font-size="14.00">Trades12Months</text>
+</g>
+<!-- LastInquiryTime&#45;&gt;Trades12Months -->
+<g id="edge2" class="edge">
+<title>LastInquiryTime-&gt;Trades12Months</title>
+<path fill="none" stroke="black" d="M483.15,-434.52C532.01,-414.25 607.36,-372.38 607.36,-307 607.36,-307 607.36,-307 607.36,-161 607.36,-73.25 495.44,-39.67 414.4,-26.85"/>
+<polygon fill="black" stroke="black" points="415.09,-23.42 404.68,-25.4 414.05,-30.34 415.09,-23.42"/>
+</g>
+<!-- PercentTradesBalance -->
+<g id="node14" class="node">
+<title>PercentTradesBalance</title>
+<ellipse fill="none" stroke="black" cx="97.36" cy="-90" rx="97.36" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="97.36" y="-85.8" font-family="Times,serif" font-size="14.00">PercentTradesBalance</text>
+</g>
+<!-- LastInquiryTime&#45;&gt;PercentTradesBalance -->
+<g id="edge5" class="edge">
+<title>LastInquiryTime-&gt;PercentTradesBalance</title>
+<path fill="none" stroke="black" d="M366.07,-448.18C265.52,-445.53 95.9,-435.2 49.36,-396 17.65,-369.29 21.36,-348.47 21.36,-307 21.36,-307 21.36,-307 21.36,-233 21.36,-188.03 51.36,-143.52 73.66,-116.64"/>
+<polygon fill="black" stroke="black" points="76.04,-119.25 79.89,-109.38 70.72,-114.69 76.04,-119.25"/>
+</g>
+<!-- HighUtilizationTrades -->
+<g id="node17" class="node">
+<title>HighUtilizationTrades</title>
+<ellipse fill="none" stroke="black" cx="370.36" cy="-378" rx="97.93" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="370.36" y="-373.8" font-family="Times,serif" font-size="14.00">HighUtilizationTrades</text>
+</g>
+<!-- LastInquiryTime&#45;&gt;HighUtilizationTrades -->
+<g id="edge3" class="edge">
+<title>LastInquiryTime-&gt;HighUtilizationTrades</title>
+<path fill="none" stroke="black" d="M424.94,-432.05C416.24,-423.61 405.56,-413.22 395.96,-403.89"/>
+<polygon fill="black" stroke="black" points="398.58,-401.55 388.97,-397.09 393.7,-406.57 398.58,-401.55"/>
+</g>
+<!-- TotalTrades -->
+<g id="node5" class="node">
+<title>TotalTrades</title>
+<ellipse fill="none" stroke="black" cx="183.36" cy="-162" rx="57.69" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="183.36" y="-157.8" font-family="Times,serif" font-size="14.00">TotalTrades</text>
+</g>
+<!-- TotalTrades&#45;&gt;PercentTradesBalance -->
+<g id="edge6" class="edge">
+<title>TotalTrades-&gt;PercentTradesBalance</title>
+<path fill="none" stroke="black" d="M163.42,-144.76C152.58,-135.95 138.98,-124.87 126.93,-115.07"/>
+<polygon fill="black" stroke="black" points="129.24,-112.43 119.27,-108.83 124.82,-117.86 129.24,-112.43"/>
+</g>
+<!-- Delay90Days -->
+<g id="node6" class="node">
+<title>Delay90Days</title>
+<ellipse fill="none" stroke="black" cx="918.36" cy="-234" rx="63.6" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="918.36" y="-229.8" font-family="Times,serif" font-size="14.00">Delay90Days</text>
+</g>
+<!-- Delay90Days&#45;&gt;Delq12Months -->
+<g id="edge8" class="edge">
+<title>Delay90Days-&gt;Delq12Months</title>
+<path fill="none" stroke="black" d="M930.53,-216.13C937.75,-205.87 946.91,-192.39 954.36,-180 966.52,-159.78 978.92,-136.14 987.93,-118.31"/>
+<polygon fill="black" stroke="black" points="991.05,-119.9 992.4,-109.39 984.79,-116.77 991.05,-119.9"/>
+</g>
+<!-- PercentNeverDelq -->
+<g id="node11" class="node">
+<title>PercentNeverDelq</title>
+<ellipse fill="none" stroke="black" cx="863.36" cy="-162" rx="82.36" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="863.36" y="-157.8" font-family="Times,serif" font-size="14.00">PercentNeverDelq</text>
+</g>
+<!-- Delay90Days&#45;&gt;PercentNeverDelq -->
+<g id="edge7" class="edge">
+<title>Delay90Days-&gt;PercentNeverDelq</title>
+<path fill="none" stroke="black" d="M905.05,-216.05C898.63,-207.89 890.79,-197.91 883.65,-188.82"/>
+<polygon fill="black" stroke="black" points="886.42,-186.68 877.49,-180.98 880.92,-191 886.42,-186.68"/>
+</g>
+<!-- RevolvingUtilization -->
+<g id="node7" class="node">
+<title>RevolvingUtilization</title>
+<ellipse fill="none" stroke="black" cx="332.36" cy="-306" rx="92.57" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="332.36" y="-301.8" font-family="Times,serif" font-size="14.00">RevolvingUtilization</text>
+</g>
+<!-- RevolvingUtilization&#45;&gt;RevolvingTrades -->
+<g id="edge10" class="edge">
+<title>RevolvingUtilization-&gt;RevolvingTrades</title>
+<path fill="none" stroke="black" d="M375.9,-289.68C396.91,-280.85 421.57,-268.26 440.36,-252 460.33,-234.73 476.8,-209.51 487.57,-190.32"/>
+<polygon fill="black" stroke="black" points="490.55,-192.16 492.23,-181.7 484.39,-188.83 490.55,-192.16"/>
+</g>
+<!-- InstallmentTrades -->
+<g id="node8" class="node">
+<title>InstallmentTrades</title>
+<ellipse fill="none" stroke="black" cx="332.36" cy="-234" rx="80.76" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="332.36" y="-229.8" font-family="Times,serif" font-size="14.00">InstallmentTrades</text>
+</g>
+<!-- RevolvingUtilization&#45;&gt;InstallmentTrades -->
+<g id="edge9" class="edge">
+<title>RevolvingUtilization-&gt;InstallmentTrades</title>
+<path fill="none" stroke="black" d="M326.45,-287.7C325.7,-280.41 325.45,-271.73 325.72,-263.54"/>
+<polygon fill="black" stroke="black" points="329.21,-263.82 326.37,-253.61 322.22,-263.36 329.21,-263.82"/>
+</g>
+<!-- RevolvingUtilization&#45;&gt;PercentTradesBalance -->
+<g id="edge11" class="edge">
+<title>RevolvingUtilization-&gt;PercentTradesBalance</title>
+<path fill="none" stroke="black" d="M284.45,-290.28C234.56,-272.41 158,-237.31 116.36,-180 103.72,-162.59 99.15,-138.52 97.64,-119.8"/>
+<polygon fill="black" stroke="black" points="101.14,-119.71 97.12,-109.91 94.15,-120.08 101.14,-119.71"/>
+</g>
+<!-- InstallmentTrades&#45;&gt;RevolvingTrades -->
+<g id="edge26" class="edge">
+<title>InstallmentTrades-&gt;RevolvingTrades</title>
+<path fill="none" stroke="black" d="M369.45,-217.64C394.41,-207.3 427.54,-193.58 454.35,-182.48"/>
+<polygon fill="black" stroke="black" points="455.36,-185.85 463.26,-178.78 452.68,-179.38 455.36,-185.85"/>
+</g>
+<!-- InstallmentTrades&#45;&gt;TotalTrades -->
+<g id="edge22" class="edge">
+<title>InstallmentTrades-&gt;TotalTrades</title>
+<path fill="none" stroke="black" d="M298.93,-217.29C276.98,-206.98 248.11,-193.42 224.72,-182.43"/>
+<polygon fill="black" stroke="black" points="226.31,-179.31 215.77,-178.23 223.34,-185.65 226.31,-179.31"/>
+</g>
+<!-- InstallmentTrades&#45;&gt;RevolvingUtilization -->
+<g id="edge25" class="edge">
+<title>InstallmentTrades-&gt;RevolvingUtilization</title>
+<path fill="none" stroke="black" d="M338.26,-252.1C339.02,-259.37 339.27,-268.04 339.02,-276.24"/>
+<polygon fill="black" stroke="black" points="335.53,-275.98 338.38,-286.19 342.51,-276.43 335.53,-275.98"/>
+</g>
+<!-- InstallmentTrades&#45;&gt;InstallmentTrades -->
+<g id="edge23" class="edge">
+<title>InstallmentTrades-&gt;InstallmentTrades</title>
+<path fill="none" stroke="black" d="M388.2,-247.38C411.43,-248.3 431.12,-243.84 431.12,-234 431.12,-225.81 417.49,-221.35 399.53,-220.61"/>
+<polygon fill="black" stroke="black" points="399.71,-217.11 389.72,-220.62 399.72,-224.11 399.71,-217.11"/>
+</g>
+<!-- Inquiry6Months -->
+<g id="node16" class="node">
+<title>Inquiry6Months</title>
+<ellipse fill="none" stroke="black" cx="332.36" cy="-162" rx="73.81" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="332.36" y="-157.8" font-family="Times,serif" font-size="14.00">Inquiry6Months</text>
+</g>
+<!-- InstallmentTrades&#45;&gt;Inquiry6Months -->
+<g id="edge24" class="edge">
+<title>InstallmentTrades-&gt;Inquiry6Months</title>
+<path fill="none" stroke="black" d="M332.36,-215.7C332.36,-208.41 332.36,-199.73 332.36,-191.54"/>
+<polygon fill="black" stroke="black" points="335.86,-191.62 332.36,-181.62 328.86,-191.62 335.86,-191.62"/>
+</g>
+<!-- LastDelqTime -->
+<g id="node10" class="node">
+<title>LastDelqTime</title>
+<ellipse fill="none" stroke="black" cx="847.36" cy="-90" rx="66.81" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="847.36" y="-85.8" font-family="Times,serif" font-size="14.00">LastDelqTime</text>
+</g>
+<!-- PercentNeverDelq&#45;&gt;DelqEver -->
+<g id="edge14" class="edge">
+<title>PercentNeverDelq-&gt;DelqEver</title>
+<path fill="none" stroke="black" d="M826.97,-145.46C801.42,-134.56 767.22,-119.96 740.65,-108.62"/>
+<polygon fill="black" stroke="black" points="742.11,-105.44 731.54,-104.73 739.37,-111.88 742.11,-105.44"/>
+</g>
+<!-- PercentNeverDelq&#45;&gt;Delq12Months -->
+<g id="edge13" class="edge">
+<title>PercentNeverDelq-&gt;Delq12Months</title>
+<path fill="none" stroke="black" d="M895.02,-144.94C914.49,-135.06 939.64,-122.31 960.59,-111.68"/>
+<polygon fill="black" stroke="black" points="962.12,-114.83 969.45,-107.19 958.95,-108.59 962.12,-114.83"/>
+</g>
+<!-- PercentNeverDelq&#45;&gt;LastDelqTime -->
+<g id="edge12" class="edge">
+<title>PercentNeverDelq-&gt;LastDelqTime</title>
+<path fill="none" stroke="black" d="M859.41,-143.7C857.72,-136.32 855.71,-127.52 853.82,-119.25"/>
+<polygon fill="black" stroke="black" points="857.25,-118.55 851.61,-109.58 850.43,-120.11 857.25,-118.55"/>
+</g>
+<!-- InstallmentUtilization -->
+<g id="node13" class="node">
+<title>InstallmentUtilization</title>
+<ellipse fill="none" stroke="black" cx="154.36" cy="-378" rx="95.78" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="154.36" y="-373.8" font-family="Times,serif" font-size="14.00">InstallmentUtilization</text>
+</g>
+<!-- InstallmentUtilization&#45;&gt;RevolvingUtilization -->
+<g id="edge15" class="edge">
+<title>InstallmentUtilization-&gt;RevolvingUtilization</title>
+<path fill="none" stroke="black" d="M194.31,-361.29C220.19,-351.11 254.12,-337.77 281.86,-326.86"/>
+<polygon fill="black" stroke="black" points="283.12,-330.13 291.14,-323.21 280.56,-323.61 283.12,-330.13"/>
+</g>
+<!-- InstallmentUtilization&#45;&gt;PercentTradesBalance -->
+<g id="edge16" class="edge">
+<title>InstallmentUtilization-&gt;PercentTradesBalance</title>
+<path fill="none" stroke="black" d="M150.88,-359.54C141.34,-311.66 114.69,-177.95 102.99,-119.24"/>
+<polygon fill="black" stroke="black" points="106.48,-118.84 101.09,-109.72 99.62,-120.21 106.48,-118.84"/>
+</g>
+<!-- PercentTradesBalance&#45;&gt;Trades12Months -->
+<g id="edge17" class="edge">
+<title>PercentTradesBalance-&gt;Trades12Months</title>
+<path fill="none" stroke="black" d="M147.2,-74.15C184.68,-62.99 236.1,-47.67 275.24,-36.02"/>
+<polygon fill="black" stroke="black" points="276.15,-39.4 284.74,-33.19 274.16,-32.69 276.15,-39.4"/>
+</g>
+<!-- Delay60Days -->
+<g id="node15" class="node">
+<title>Delay60Days</title>
+<ellipse fill="none" stroke="black" cx="699.36" cy="-162" rx="63.6" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="699.36" y="-157.8" font-family="Times,serif" font-size="14.00">Delay60Days</text>
+</g>
+<!-- Delay60Days&#45;&gt;DelqEver -->
+<g id="edge18" class="edge">
+<title>Delay60Days-&gt;DelqEver</title>
+<path fill="none" stroke="black" d="M699.36,-143.7C699.36,-136.41 699.36,-127.73 699.36,-119.54"/>
+<polygon fill="black" stroke="black" points="702.86,-119.62 699.36,-109.62 695.86,-119.62 702.86,-119.62"/>
+</g>
+<!-- Inquiry6Months&#45;&gt;DelqEver -->
+<g id="edge19" class="edge">
+<title>Inquiry6Months-&gt;DelqEver</title>
+<path fill="none" stroke="black" d="M387.03,-149.5C396.15,-147.63 405.52,-145.74 414.36,-144 494.75,-128.19 588.14,-111.06 645.5,-100.68"/>
+<polygon fill="black" stroke="black" points="646.11,-104.12 655.33,-98.9 644.87,-97.23 646.11,-104.12"/>
+</g>
+<!-- Inquiry6Months&#45;&gt;Trades12Months -->
+<g id="edge20" class="edge">
+<title>Inquiry6Months-&gt;Trades12Months</title>
+<path fill="none" stroke="black" d="M332.36,-143.59C332.36,-119.61 332.36,-76.14 332.36,-47.42"/>
+<polygon fill="black" stroke="black" points="335.86,-47.62 332.36,-37.62 328.86,-47.62 335.86,-47.62"/>
+</g>
+<!-- HighUtilizationTrades&#45;&gt;RevolvingUtilization -->
+<g id="edge21" class="edge">
+<title>HighUtilizationTrades-&gt;RevolvingUtilization</title>
+<path fill="none" stroke="black" d="M360.97,-359.7C356.78,-351.98 351.75,-342.71 347.08,-334.11"/>
+<polygon fill="black" stroke="black" points="350.22,-332.55 342.37,-325.43 344.07,-335.89 350.22,-332.55"/>
+</g>
+</g>
+</svg>

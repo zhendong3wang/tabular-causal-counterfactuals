@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="367pt" height="188pt" viewBox="0.00 0.00 367.00 188.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-184 362.57,-184 362.57,4 -4,4"/>
+<!-- HouseLoans -->
+<g id="node1" class="node">
+<title>HouseLoans</title>
+<ellipse fill="none" stroke="black" cx="59.31" cy="-90" rx="59.31" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="59.31" y="-85.8" font-family="Times,serif" font-size="14.00">HouseLoans</text>
+</g>
+<!-- DebtRatio -->
+<g id="node2" class="node">
+<title>DebtRatio</title>
+<ellipse fill="none" stroke="black" cx="126.31" cy="-18" rx="50.73" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="126.31" y="-13.8" font-family="Times,serif" font-size="14.00">DebtRatio</text>
+</g>
+<!-- HouseLoans&#45;&gt;DebtRatio -->
+<g id="edge1" class="edge">
+<title>HouseLoans-&gt;DebtRatio</title>
+<path fill="none" stroke="black" d="M75.19,-72.41C83.37,-63.87 93.5,-53.28 102.59,-43.79"/>
+<polygon fill="black" stroke="black" points="105.12,-46.21 109.5,-36.56 100.06,-41.37 105.12,-46.21"/>
+</g>
+<!-- CreditLines -->
+<g id="node3" class="node">
+<title>CreditLines</title>
+<ellipse fill="none" stroke="black" cx="193.31" cy="-90" rx="56.63" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="193.31" y="-85.8" font-family="Times,serif" font-size="14.00">CreditLines</text>
+</g>
+<!-- CreditLines&#45;&gt;DebtRatio -->
+<g id="edge2" class="edge">
+<title>CreditLines-&gt;DebtRatio</title>
+<path fill="none" stroke="black" d="M177.43,-72.41C169.26,-63.87 159.12,-53.28 150.04,-43.79"/>
+<polygon fill="black" stroke="black" points="152.57,-41.37 143.12,-36.56 147.51,-46.21 152.57,-41.37"/>
+</g>
+<!-- RevolvingUtilization -->
+<g id="node4" class="node">
+<title>RevolvingUtilization</title>
+<ellipse fill="none" stroke="black" cx="101.31" cy="-162" rx="92.57" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="101.31" y="-157.8" font-family="Times,serif" font-size="14.00">RevolvingUtilization</text>
+</g>
+<!-- RevolvingUtilization&#45;&gt;CreditLines -->
+<g id="edge3" class="edge">
+<title>RevolvingUtilization-&gt;CreditLines</title>
+<path fill="none" stroke="black" d="M123.58,-144.05C135.48,-135 150.29,-123.73 163.2,-113.91"/>
+<polygon fill="black" stroke="black" points="165.15,-116.82 170.99,-107.98 160.91,-111.25 165.15,-116.82"/>
+</g>
+<!-- MonthlyIncome -->
+<g id="node5" class="node">
+<title>MonthlyIncome</title>
+<ellipse fill="none" stroke="black" cx="285.31" cy="-162" rx="73.26" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="285.31" y="-157.8" font-family="Times,serif" font-size="14.00">MonthlyIncome</text>
+</g>
+<!-- MonthlyIncome&#45;&gt;CreditLines -->
+<g id="edge4" class="edge">
+<title>MonthlyIncome-&gt;CreditLines</title>
+<path fill="none" stroke="black" d="M263.51,-144.41C251.54,-135.3 236.51,-123.87 223.43,-113.92"/>
+<polygon fill="black" stroke="black" points="225.61,-111.17 215.53,-107.9 221.37,-116.75 225.61,-111.17"/>
+</g>
+</g>
+</svg>
