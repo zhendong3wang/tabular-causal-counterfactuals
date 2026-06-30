@@ -89,6 +89,10 @@ class CF_LatentCFpp():
             epoch = 0 
             y_logit = y_logit.numpy().squeeze()
             y_ = np.argmax(y_logit)
+
+            cf_sample = self.decoder(z)
+            
+
             while (y_logit[target_cls] < self.target_prob) and (self.epochs > epoch):
 
                 with tf.GradientTape() as tape:
