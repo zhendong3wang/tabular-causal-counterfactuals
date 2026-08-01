@@ -45,6 +45,7 @@ class DataReader_GiveMeCredit(object):
     def __init__(self,path):
         self.name = "GiveMeCredit_Data"
         self.path = path
+        self.RANDOM_SEED = 42
         self.log_vars = [
             # 'NumberOfTime30-59DaysPastDueNotWorse',
             # 'NumberOfTime60-89DaysPastDueNotWorse',                    
@@ -80,7 +81,9 @@ class DataReader_GiveMeCredit(object):
 
 
         
-        self.X_train, self.X_test, self.y_train, self.y_test,self.context_train, self.context_test = train_test_split(self.X, self.Y,self.context, test_size=0.2,random_state=42)
+        self.X_train, self.X_test, self.y_train, self.y_test,self.context_train, self.context_test = train_test_split(
+            self.X, self.Y, self.context, test_size=0.2, random_state=self.RANDOM_SEED, stratify=self.Y
+        )
 
         # Normalization
         
@@ -125,6 +128,8 @@ class DataReader_GiveMeCredit(object):
         self.Y = self.diag[self.Y,:]
 
         # Subsampling the majority class # note: reduced the sample size
+        np.random.seed(self.RANDOM_SEED)
+        
         idx_no_risk = np.argwhere(self.Y[:,0] == 1)[:,0]
         idx_risk = np.argwhere(self.Y[:,0] == 0)[:,0]
         idx_no_risk_sub = np.random.choice(idx_no_risk,len(idx_risk),replace=False)

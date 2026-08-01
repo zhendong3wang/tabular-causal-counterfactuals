@@ -22,12 +22,30 @@ bash trainAEs.sh
 bash trainClassifiers.sh
 ```
 
-- Evaluation scripts are available in the [`notebooks_causal_cactus`](./notebooks_causal_cactus/) folder.
+- Evaluation 
 
-- Ablation study scripts can be found in the [`notebooks_causal_cactus`](./notebooks_causal_cactus/) folder.
+```
+bash run_main_test.sh
+```
+
+- Ablation study 
+
+```
+bash run_ablation_test1.sh
+
+bash run_ablation_test2.sh
+```
 
 - Result files are available in the [`results`](./results/) folder.
 
+## Example code to run 
+- Run results for one dataset and one prior:
+
+```
+python cf_evaluate_main.py --dataset credit --prior min --output results_credit.csv
+```
+
+- Example of how to run for each model scripts are available in the [`notebooks_causal_cactus`](./notebooks_causal_cactus/) folder. The notebook for scripts can be found in the [`notebooks_causal_cactus`](./notebooks_causal_cactus/) folder.
 
 ## Data
 All the datasets are publicly available tabular datasets across different application domains, listed in the [`data`](./data) folder.

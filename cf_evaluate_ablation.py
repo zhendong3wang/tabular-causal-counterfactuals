@@ -22,6 +22,7 @@ import json
 import re
 from collections import defaultdict
 import logging
+import copy
 
 SEED = 23
 
@@ -281,33 +282,34 @@ def generate_config_ablation1(dataset, DATASETS_CONFIG):
             EXP.append(exp)
     return EXP
 
-
+# Update the ablation 2's config loading to match with CACTUS's config in the main experiments
 def generate_config_ablation2(dataset, DATASETS_CONFIG):
-    with open("./configs/experiments/ABLATION_EXP2.json") as f:
-        ablation_config = json.load(f)
+    # with open("./configs/experiments/ABLATION_EXP2.json") as f:
+    #     ablation_config = json.load(f)
+    ablation_variants= ["baseline", "causal", "phase", "full"]
+    with open(f"./configs/experiments/{dataset.upper()}_EXP.json") as f:
+        base_exp = json.load(f)
 
     EXP = []
-    dataset_cfg = DATASETS_CONFIG[dataset]
+    for variant in ablation_variants: 
+        if variant == "baseline":
+            # find the CACTUS experiment  
+            base_exp_cactus = next(exp for exp in base_exp if exp["name"] == "CACTUS")
+            exp = copy.deepcopy(base_exp_cactus)
+            variant_config = ABLATION_VARIANTS[variant]
+            # exp.update(variant_config)
+            exp["name"] = f"CausalCACTUS-{variant}"
 
-    for variant_name in ablation_config["variants"]:
-        variant = ABLATION_VARIANTS[variant_name]
+            EXP.append(exp)
+        else: 
+            # find the CausalCACTUS experiment  
+            base_exp_causal = next(exp for exp in base_exp if exp["name"] == "CausalCACTUS")
+            variant_config = ABLATION_VARIANTS[variant]
+            exp = copy.deepcopy(base_exp_causal)
+            exp.update(variant_config)
+            exp["name"] = f"CausalCACTUS-{variant}"
 
-        EXP.append({
-                "name": f"CausalCACTUS-{variant_name}",
-                "data": dataset,
-                "classifier": dataset_cfg["classifier"],
-                "AEmodel": dataset_cfg["AEmodel"],
-                "context": dataset_cfg["context"],
-                "epochs": 300,
-                "target_prob": 0.5,
-                "learning_rate": 0.01,
-                "power": 0.5,
-                "alpha": 0.7,
-                "gamma": 0.1,
-                "beta": 0.01,
-                **variant
-            })
-        
+            EXP.append(exp)
     return EXP
 
 def build_causal_index_map(input_features, graph_str):
